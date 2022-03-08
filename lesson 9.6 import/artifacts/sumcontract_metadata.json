@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".Mysolidity/lesson 9.6 import/2-sum.sol": "sumcontract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".Mysolidity/lesson 9.6 import/1-interface.sol": {
+			"keccak256": "0xd598149880648a2b8721df7d7c150499a483e564eaabd96e4dc84446f0c6174e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d3f526d7e78bea95540579001a3d8747abbf1f65521b3cee689959146545837c",
+				"dweb:/ipfs/QmPoQwA6BJ7uPnjQpHj2Cqej8xqaZ6g6AchfygMwERQDTy"
+			]
+		},
+		".Mysolidity/lesson 9.6 import/2-sum.sol": {
+			"keccak256": "0xbd8353bc984a6c3ee90644d8a5b1a30f04a732353e86e987556ca70f4af5300b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2aba2ea9ac1e25313efdc86bc69beffa26a8977c5e43e9bf2769ff5a3054cad0",
+				"dweb:/ipfs/QmbgavAEGHyHYMhoUEDmMwUyVboQHP6pL8peck4tbhPTDY"
+			]
+		}
+	},
+	"version": 1
+}

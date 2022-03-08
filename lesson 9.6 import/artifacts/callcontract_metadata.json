@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addcontract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "call",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".Mysolidity/lesson 9.6 import/4-interface.sol": "callcontract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".Mysolidity/lesson 9.6 import/4-interface.sol": {
+			"keccak256": "0x42997a2322d8223501a2e93518f3fbef204f69fed29bc48b239bdc63611b3117",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://094ca8d8c9a54ebdd250deac4459b9060ca18bd7ed8909734f8ad6f863daca87",
+				"dweb:/ipfs/QmRE1UrN1GcU4UH3omXhAYBsf82nPHkAR3F4ZUnQfrafHz"
+			]
+		}
+	},
+	"version": 1
+}

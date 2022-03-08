@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "testconditional",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".Mysolidity/lesson 9.6 import/7-then.sol": "conditional"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".Mysolidity/lesson 9.6 import/7-then.sol": {
+			"keccak256": "0x7af3f01e6beaafb98ad28afeb8dd65472500087a13b2245005f55faac6c8a87f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3d080f58f817120ff24ed7366c0a0e8309f2530074de6e5f2763c66f45ae1ea6",
+				"dweb:/ipfs/QmfNKS2BVvAYfHrwscqq8XQANeq194GyLi9F6Ej5JkJybZ"
+			]
+		}
+	},
+	"version": 1
+}
